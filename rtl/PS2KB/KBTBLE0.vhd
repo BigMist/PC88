@@ -60,7 +60,7 @@ BEGIN
 	altsyncram_component : altsyncram
 	GENERIC MAP (
 		address_aclr_a => "NONE",
-		init_file => "./rtl/PS2KB/kbtble0.hex",
+		init_file => "../rtl/PS2KB/kbtble0.hex",
 		intended_device_family => "Cyclone",
 		lpm_hint => "ENABLE_RUNTIME_MOD=NO",
 		lpm_type => "altsyncram",
